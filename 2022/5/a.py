@@ -1,4 +1,4 @@
-base = [
+stacks = [
     ['W','D', 'G', 'B', 'H', 'R', 'V'],
     ['J', 'N', 'G', 'C', 'R', 'F'],
     ['L', 'S', 'F', 'H', 'D', 'N', 'J'],
@@ -10,11 +10,6 @@ base = [
      ['L', 'G', 'S', 'R', 'B', 'N', 'V', 'M']
 ]
 
-stacks = [[], [], [], [], [], [], [], [], []]
-
-for i,el in enumerate(base):
-    for e in el:
-        stacks[i].append(e)
 
 
 ins = []
